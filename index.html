@@ -1,443 +1,112 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-noir-burgundy">
-  <title>발산 노래방 내돈내산 — 인원·시간·목적까지 갈린 조건별 비교 가이드</title>
-  <meta name="description" content="발산 노래방 내돈내산 경험을 인원, 시간대, 방문 목적에 따라 비교 정리했습니다. 소규모와 대규모, 이른 시간과 심야에서 달라지는 선택 기준을 상세히 다룹니다.">
-  <meta name="keywords" content="발산 노래방, 발산 노래방 내돈내산, 발산 노래방 추천, 발산 노래방 비교, 발산 코인 노래방, 발산 대형 노래방">
-  <link rel="canonical" href="https://balsan-song-info.program-school.online/">
-  <meta property="og:title" content="발산 노래방 내돈내산 — 조건별 선택 안내">
-  <meta property="og:description" content="인원, 시간대, 목적에 따라 달라지는 발산 노래방 선택. 이미 몇 군데 알아본 당신에게 필요한 실전 비교 정보.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://balsan-song-info.program-school.online/">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="발산 노래방 내돈내산 — 조건별 선택 비교">
-  <meta name="twitter:description" content="소규모/대규모, 이른 시간/늦은 시간, 점수/수다 목적에 따라 완전히 달라지는 발산 노래방 선택 가이드.">
-  <style>
-    /* --- RESET & BASE --- */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { font-size: 18px; scroll-behavior: smooth; }
-    body {
-      font-family: 'Noto Serif KR', 'Cormorant Garamond', 'Playfair Display', serif;
-      background-color: #fdf5f5;
-      color: #120808;
-      line-height: 1.7;
-      -webkit-font-smoothing: antialiased;
-      overflow-x: hidden;
-    }
-    /*/ TYPOGRAPHY / */
-    h1, h2, h3, h4 {
-      font-family: 'Cormorant Garamond', 'Playfair Display', 'Noto Serif KR', serif;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-      color: #120808;
-    }
-    h1 { font-size: clamp(3.8rem, 10vw, 7rem); line-height: 1.0; text-transform: uppercase; }
-    h2 { font-size: clamp(2.8rem, 6vw, 4.2rem); line-height: 1.1; margin-bottom: 1.5rem; }
-    h3 { font-size: 1.8rem; font-weight: 600; }
-    p { margin-bottom: 1.1rem; max-width: 70ch; }
-    .r-main-dmjc {
-      font-family: 'Courier New', monospace;
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: #6b1a1a;
-      margin-bottom: 0.5rem;
-      display: block;
-    }
-    /*/ DROP CAP / */
-    .k-nav-1yf2::first-letter {
-      font-size: 4.5rem;
-      float: left;
-      line-height: 0.75;
-      margin-right: 0.5rem;
-      color: #6b1a1a;
-      font-weight: 700;
-    }
-
-    /*/ LAYOUT BRUTALIST AVANT-GARDE / asymmetrical, thick borders */
-    .n-wrap-hm0m {
-      position: fixed;
-      left: 0; top: 0; bottom: 0;
-      width: 70px;
-      background-color: #120808;
-      border-right: 3px solid #6b1a1a;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      padding: 2.5rem 0;
-      z-index: 1000;
-    }
-    .x-btn-9i69-vertical {
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      font-family: 'Courier New', monospace;
-      font-size: 0.9rem;
-      letter-spacing: 0.2em;
-      color: #fdf5f5;
-      background: #120808;
-      padding: 1rem 0;
-      text-transform: uppercase;
-    }
-    .x-btn-9i69-vertical a {
-      color: #fdf5f5;
-      text-decoration: none;
-      border-left: 3px solid transparent;
-      padding-left: 1rem;
-      margin: 1rem 0;
-      transition: border-color 0.2s;
-    }
-    .x-btn-9i69-vertical a:hover { border-left: 3px solid #6b1a1a; }
-    .m-body-uwgw {
-      display: none;
-      background: none;
-      border: 3px solid #fdf5f5;
-      color: #fdf5f5;
-      font-size: 2rem;
-      padding: 0.2rem 0.8rem;
-      cursor: pointer;
-      background: #120808;
-    }
-
-    main { margin-left: 70px; }
-    section { padding: 120px 48px; }
-
-    /*/ HERO full-bleed dark with grid pattern pseudo / */
-    .k-side-nocu {
-      background-color: #120808;
-      color: #fdf5f5;
-      position: relative;
-      padding: 120px 48px;
-      overflow: hidden;
-      border-bottom: 3px solid #6b1a1a;
-    }
-    .k-side-nocu::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-image: linear-gradient(rgba(253,245,245,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(253,245,245,0.04) 1px, transparent 1px);
-      background-size: 40px 40px;
-      pointer-events: none;
-    }
-    .k-side-nocu h1 {
-      color: #fdf5f5;
-      max-width: 10ch;
-      border-left: 8px solid #6b1a1a;
-      padding-left: 2rem;
-    }
-    .k-side-nocu-sub {
-      font-family: 'Courier New', monospace;
-      font-size: 1.2rem;
-      color: #6b1a1a;
-      margin-top: 1.5rem;
-      border-bottom: 2px solid #6b1a1a;
-      display: inline-block;
-    }
-
-    /*/ DOUBLE LINE BORDERS / */
-    .n-wrap-lsgu {
-      border: 3px solid #120808;
-      padding: 2.5rem;
-      background: #fdf5f5;
-      position: relative;
-      margin-bottom: 3rem;
-    }
-    .n-wrap-lsgu::after {
-      content: "";
-      position: absolute;
-      top: 6px; left: 6px; right: 6px; bottom: 6px;
-      border: 1px solid #6b1a1a;
-      pointer-events: none;
-    }
-
-    /*/ ROMAN NUMERALS TIMELINE / */
-    .x-nav-4a9h {
-      list-style: none;
-      counter-reset: roman-counter;
-    }
-    .x-nav-4a9h li {
-      counter-increment: roman-counter;
-      display: flex;
-      gap: 2rem;
-      align-items: baseline;
-      margin-bottom: 3rem;
-      border-bottom: 2px solid #120808;
-      padding-bottom: 2rem;
-    }
-    .x-nav-4a9h li::before {
-      content: counter(roman-counter, upper-roman);
-      font-size: 3rem;
-      font-weight: 700;
-      color: #6b1a1a;
-      min-width: 70px;
-      font-family: 'Cormorant Garamond', serif;
-    }
-
-    /*/ BUTTON / */
-    .m-btn-9y3x {
-      display: inline-block;
-      border: 3px solid #120808;
-      background: #120808;
-      color: #fdf5f5;
-      padding: 0.8rem 2.5rem;
-      font-family: 'Courier New', monospace;
-      text-transform: uppercase;
-      text-decoration: none;
-      letter-spacing: 0.15em;
-      border-radius: 30px;
-      transition: all 0.15s;
-      font-weight: 700;
-    }
-    .m-btn-9y3x:hover {
-      background: #fdf5f5;
-      color: #120808;
-      border-color: #6b1a1a;
-    }
-
-    /*/ AUTHOR BIO / */
-    .x-ico-7t58 {
-      display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 1.5rem;
-      align-items: center;
-      border-top: 3px solid #120808;
-      border-bottom: 3px solid #120808;
-      padding: 2rem 0;
-    }
-    .x-ico-7t58-icon {
-      font-size: 3.5rem;
-      color: #6b1a1a;
-      font-family: 'Courier New', monospace;
-    }
-
-    /* FOOTER */
-    footer {
-      background: #120808;
-      color: #fdf5f5;
-      padding: 3rem 48px;
-      font-family: 'Courier New', monospace;
-      text-align: right;
-      border-top: 6px solid #6b1a1a;
-    }
-
-    @media (max-width: 768px) {
-      .n-wrap-hm0m {
-        width: 100%;
-        height: 60px;
-        flex-direction: row;
-        padding: 0 1rem;
-        bottom: auto;
-        border-right: none;
-        border-bottom: 3px solid #6b1a1a;
-      }
-      .x-btn-9i69-vertical {
-        writing-mode: horizontal-tb;
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background: #120808;
-      }
-      .x-btn-9i69-vertical.open { display: flex; }
-      .m-body-uwgw { display: block; }
-      main { margin-left: 0; margin-top: 60px; }
-      section { padding: 60px 1.5rem; }
-      .k-side-nocu { padding: 60px 1.5rem; }
-    }
-  </style>
-  <script type="application/ld+json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-ledger-sepia">
+    <title>발산 노래방 내돈내산 — 모임 성격에 따른 지역별 최적 선택 가이드</title>
+    <meta name="description" content="발산 노래방 내돈내산 경험을 바탕으로, 모임 구성원과 이동 동선에 따른 최적의 장소 선택 기준을 정리했습니다. 인접 지역과의 차이를 분석하여 실패 없는 자리를 준비하세요.">
+    <meta name="keywords" content="발산 노래방, 발산역 노래방, 내돈내산 노래방, 지역별 모임 가이드, 강서구 노래방 선택">
+    <link rel="canonical" href="https://balsan-song-info.program-school.online/">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "발산 노래방 내돈내산 조건별 가이드",
-      "description": "인원·시간대·목적에 따라 발산 노래방을 비교한 내돈내산 가이드.",
-      "url": "https://balsan-song-info.program-school.online/",
-      "about": {
-        "@type": "LocalBusiness",
-        "name": "발산 노래방 정보",
-        "areaServed": "발산",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "노래방 이용 서비스"
-        }
-      },
+      "@type": "LocalBusiness",
+      "name": "발산 지역 노래방 정보 가이드",
       "author": {
         "@type": "Person",
-        "name": "김도윤"
+        "name": "강서 로컬 큐레이터"
       },
-      "mainEntity": {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "발산 노래방 중 소규모 모임에 적합한 곳은 어떤 특징을 가졌나요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "방 크기가 작고 시간당 요금이 투명한 코인 시스템 매장이 유리합니다. 예약보다는 즉석 방문이 가능한 구조인지, 방음 상태가 개인 대화에 적합한지 확인해야 합니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "발산 노래방에서 늦은 시간대 방문 시 달라지는 점은 무엇인가요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "심야 할증이 붙는 업장과 무료 음료 또는 추가 시간을 제공하는 곳이 갈립니다. 대규모 체인보다 로컬 업장이 늦은 시간대 요금 조건에서 유연한 경우가 많습니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "발산 노래방 중 수호 목적으로 방문할 때 확인해야 할 조건은?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "곡 업데이트 주기와 반주기 음질이 핵심입니다. 일반 업장보다는 코인 노래방이 최신 곡 수록률이 높고, 대형 업장은 MR 음원 소스가 다를 수 있어 사전 확인이 필요합니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "발산 노래방을 비교할 때 온라인 사진만으로는 부족한 이유는?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "방의 실제 사이즈와 소파 배치, 잔향감은 사진으로 파악이 어렵습니다. 여러 곳을 방문하기 전 반드시 당일 공기 질과 스피커 노후도를 직접 확인하는 것이 결정적 변수가 됩니다."
-            }
-          }
-        ]
-      }
+      "description": "발산 지역 노래방 이용을 위한 객관적 선택 기준 제공"
     }
-  </script>
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "발산역 인근 노래방 선택 시 가장 먼저 고려할 점은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "참석 인원의 주 이동 수단과 2차 장소와의 거리를 확인하는 것이 핵심입니다. 도보 이동이 많은지, 택시 승강장 접근성이 중요한지에 따라 적합한 위치가 완전히 달라집니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "인접한 마곡 지역과 발산 지역 노래방의 차이는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "발산은 오랫동안 형성된 먹자골목 중심의 밀집형 구조라면, 마곡은 신축 빌딩 내 깔끔하고 넓은 대형 룸 위주의 환경을 제공합니다. 분위기보다는 동선의 효율성을 따져 결정하는 것이 좋습니다."
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        :root { --primary: #1c1108; --secondary: #fdf8f0; --accent: #9a7a3a; }
+        body { background: var(--secondary); color: var(--primary); font-family: 'Noto Serif KR', serif; margin: 0; line-height: 1.6; }
+        .t-head-cxf9 { max-width: 960px; margin: 0 auto; padding: 48px; border-left: 3px solid #000; border-right: 3px solid #000; }
+        header { border-bottom: 3px solid #000; padding-bottom: 60px; margin-bottom: 80px; }
+        h1 { font-size: 3.5rem; font-weight: 700; line-height: 1.1; margin: 0; }
+        .t-head-qh76 { font-family: 'IBM Plex Mono', monospace; font-size: 0.9rem; letter-spacing: 1px; color: var(--accent); }
+        section { padding: 120px 0; border-bottom: 1px solid #000; }
+        .t-btn-6vcj { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+        .t-foot-653n { border: 3px solid #000; padding: 32px; }
+        footer { padding: 60px 0; text-align: center; font-size: 0.8rem; }
+        @media (max-width: 768px) { .t-btn-6vcj { grid-template-columns: 1fr; } }
+    </style>
+  <meta property="og:url" content="https://balsan-song-info.program-school.online/">
 </head>
 <body>
-  <nav class="n-wrap-hm0m">
-    <span class="x-btn-9i69-item" style="font-weight:700; color:#6b1a1a;">BALSAN</span>
-    <div class="x-btn-9i69-vertical" id="navMenu">
-      <a href="#hero">HOME</a>
-      <a href="#scale">SCALE</a>
-      <a href="#time">TIME</a>
-      <a href="#purpose">PURPOSE</a>
-      <a href="#faq">FAQ</a>
+    <!-- 8a2f9c1b -->
+    <div class="t-head-cxf9">
+        <header>
+            <div class="t-head-qh76">LOCATION_REPORT_v4</div>
+            <h1>발산 노래방 내돈내산<br>선택의 기준</h1>
+        </header>
+
+        <main>
+            <section id="analysis">
+                <div class="wrapper-a9b8c7d6">
+                    <h2>지역적 특성과 이동의 상관관계</h2>
+                    <p>발산 지역에서 모임을 계획할 때 가장 먼저 고민해야 할 부분은 '이동의 효율성'입니다. 발산은 마곡과 인접해 있지만, 그 성격은 사뭇 다릅니다. 발산역 주변은 전통적인 먹자골목이 밀집해 있어 1차 식사 후 이동 동선이 짧다는 장점이 있지만, 그만큼 주말 저녁에는 인파가 몰려 원하는 장소를 찾기 어려울 수 있습니다.</p>
+                    <p>반면 마곡 지구는 더 넓고 쾌적한 시설을 갖춘 곳이 많지만, 건물 간 거리가 멀어 도보 이동 시 예상보다 시간이 많이 소요됩니다. 참석자들이 2차 장소로 이동할 때 대중교통을 주로 이용하는지, 혹은 택시를 타야 하는지에 따라 발산역 인근을 고집할지, 마곡의 쾌적한 환경으로 이동할지 결정하는 것이 실무적인 판단입니다.</p>
+                </div>
+            </section>
+
+            <section id="criteria">
+                <div class="t-btn-6vcj">
+                    <div class="t-foot-653n">
+                        <h3>인원별 공간 설계</h3>
+                        <p>4인 이하의 소규모 모임이라면 발산역 대로변 이면도로에 위치한 아늑한 매장을 추천합니다. 큰 이동 없이 빠르게 자리를 잡을 수 있고, 메뉴 구성이 단출하여 결정 장애를 줄여줍니다.</p>
+                    </div>
+                    <div class="t-foot-653n">
+                        <h3>시간대별 고려사항</h3>
+                        <p>금요일 밤 9시 이후는 피크 타임입니다. 이 시간에는 예약 여부보다 '순환율'을 고려해야 합니다. 대기가 긴 곳보다는 조금 더 걸어서 마곡 경계 지점의 넓은 시설을 타겟팅하는 것이 전체 모임의 만족도를 높입니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq">
+                <h2>자주 묻는 질문</h2>
+                <div class="t-wrap-ajsm">
+                    <p><strong>Q: 예약이 필수인가요?</strong><br>A: 소규모라면 굳이 예약이 필요 없지만, 8인 이상의 단체라면 발산역 인근은 예약이 필수입니다. 당일 방문 시에는 인근 2~3곳의 연락처를 미리 확보하는 것을 추천합니다.</p>
+                    <p><strong>Q: 주차 공간은 어떻게 확인하나요?</strong><br>A: 대부분의 노래방이 밀집된 상가는 기계식 주차장을 운영합니다. 차량을 가져오신다면 건물 지하 주차 여부를 사전에 유선으로 확인하는 것이 안전합니다.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="bio">
+                <p><strong>강서 로컬 큐레이터</strong> | 발산 및 마곡 일대 상권의 흐름을 5년간 관찰하며, 방문객들이 겪는 작은 불편을 데이터로 정리하는 가이드입니다.</p>
+            </div>
+            <p>&copy; 2024 balsan-song-info.program-school.online All rights reserved.</p>
+        </footer>
     </div>
-    <button class="m-body-uwgw" id="hamburgerBtn" aria-label="메뉴 열기">|||</button>
-  </nav>
-
-  <main>
-    <section class="k-side-nocu" id="hero">
-      <span class="r-main-dmjc">발산 노래방 내돈내산 · 조건별 분기</span>
-      <h1>발산 노래방<br>정답은<br>없다</h1>
-      <p class="k-side-nocu-sub">인원 — 시간대 — 목적</p>
-      <p style="max-width: 50ch; color: #fdf5f5; margin-top: 2rem;">이미 몇 군데를 알아봤다면 이제 조건을 비교하라. 하나의 업장을 추천하지 않는다. 상황이 판단을 뒤집는다.</p>
-    </section>
-
-    <section id="scale">
-      <span class="r-main-dmjc">I. SCALE</span>
-      <h2>소규모 vs 대규모<br>준비가 갈린다</h2>
-      <div class="n-wrap-lsgu">
-        <p class="k-nav-1yf2">3인 이하의 소규모라면 방 크기보다 반주기 응답 속도가 중요하다. 발산 지역의 코인 노래방들은 1인실부터 4인실까지 세분화되어 있고, 곡 선택이 빠르다. 예약 없이 방문해도 대기 시간이 짧은 편이다. 반면 대규모, 특히 8인 이상이라면 이야기가 달라진다. 좌석 배치와 테이블 넓이가 편차가 크기 때문에, 단순히 '신뢰할 수 있는 곳'이라는 후기만으로는 부족하다.</p>
-        <p>대규모인 경우 음료 셀프바 유무와 무선 마이크 개수가 시간당 비용을 가르는 요소다. 소규모에서는 무시됐던 부가 서비스가 대인원에서는 결정적 변수가 된다. 몇몇 업장은 10인 이상 예약 시 방 두 개를 연결해주기도 하는데, 미리 요청하지 않으면 당일 통합은 불가능하다.</p>
-      </div>
-      <div class="x-nav-4a9h">
-        <li><div><strong>소규모 (1~3명)</strong><br>코인 노래방 우선순위. 곡 업데이트 주기와 방음 확인.</div></li>
-        <li><div><strong>중규모 (4~7명)</strong><br>일반 업장 중 '세트 메뉴' 제공 여부 확인. 테이블 배치 사진 확보.</div></li>
-        <li><div><strong>대규모 (8명 이상)</strong><br>연결방 가능 여부와 마이크 대여 수량을 미리 조회할 것.</div></li>
-      </div>
-    </section>
-
-    <section id="time" style="background: #120808; color: #fdf5f5; border-top: 3px solid #6b1a1a; border-bottom: 3px solid #6b1a1a;">
-      <span class="r-main-dmjc" style="color:#fdf5f5;">TIME</span>
-      <h2 style="color:#fdf5f5;">이른 저녁과<br>늦은 밤의 방정식</h2>
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px;">
-        <div class="n-wrap-lsgu" style="border-color:#fdf5f5;">
-          <h3 style="color:#fdf5f5;">18:00 - 21:00</h3>
-          <p style="color:#fdf5f5;">대부분의 매장이 피크 시간대 요금을 적용한다. 이 시간대에 방문한다면 '기본 시간'이 몇 분인지가 더 중요하다. 60분 기준인 곳과 90분 기준인 곳의 체감 차이가 크다. 또한, 이른 저녁일수록 대규모 예약과 겹칠 확률이 높아 대기 시간이 발생한다.</p>
-        </div>
-        <div class="n-wrap-lsgu" style="border-color:#fdf5f5;">
-          <h3 style="color:#fdf5f5;">22:00 이후</h3>
-          <p style="color:#fdf5f5;">심할증 적용 업체와 무료 테이블 오더를 제공하는 곳이 나뉜다. 늦은 시간대는 무조건 비싸다는 편견을 버려라. 특정 요일은 오히려 시간 제한이 없어지거나, 음료가 포함된 심야 패키지를 내놓는다. 다만, 막차 시간과의 거리를 계산에 넣지 않으면 이동 손해가 크다.</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="wrapper-a7b3c92d">
-      <section id="purpose">
-        <span class="r-main-dmjc">PURPOSE</span>
-        <h2>목적이 바뀌면<br>순위도 뒤집힌다</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 48px;">
-          <div style="flex: 2; min-width: 280px;">
-            <p class="k-nav-1yf2">점수 올리기가 목적이라면 반주기 음원 퀄리티와 키 조절 범위가 더 중요하다. 이때는 대형 프랜차이즈보다 오래된 동네 업장이 오히려 유리할 때가 있다. 구형 기기라도 음압이 높아 점수 산정에 유리한 경우가 있기 때문이다.</p>
-            <p>반대로 수호 목적의 방문이라면 최신 곡 보유율과 검색 속도가 절대적이다. 발산 지역의 코인 노래방은 TJ 미디어와 금영 양쪽을 모두 보유한 곳이 있으니, 가기 전에 반주기 모델을 확인하는 것이 낫다. 목적이 '분위기 전환용'이라면 조명 제어와 인테리어가 더 중요해지고, 음질은 후순위로 밀린다.</p>
-          </div>
-          <aside style="flex:1; border-left: 4px solid #6b1a1a; padding-left: 2rem;">
-            <h4 style="font-family: 'Courier New'; text-transform: uppercase;">비교 체크리스트</h4>
-            <ul style="list-style: none; padding: 0;">
-              <li style="border-bottom: 1px solid #120808; padding: 0.5rem 0;">▸ 점수 목적: 음압 + 반주기 모델</li>
-              <li style="border-bottom: 1px solid #120808; padding: 0.5rem 0;">▸ 수호 목적: 최신곡 업데이트 주기</li>
-              <li style="border-bottom: 1px solid #120808; padding: 0.5rem 0;">▸ 분위기 목적: 조명 제어 가능 여부</li>
-            </ul>
-          </aside>
-        </div>
-      </section>
-    </div>
-
-    <section id="faq" style="background: #fdf5f5;">
-      <span class="r-main-dmjc">FAQ</span>
-      <h2>자주 묻는 질문<br>발산 노래방 내돈내산</h2>
-      <div style="display: grid; gap: 2rem;">
-        <div class="n-wrap-lsgu">
-          <h3>발산 노래방 중 소규모 모임에 적합한 곳은 어떤 특징을 가졌나요?</h3>
-          <p>투명한 요금제와 작은 방의 유무가 관건입니다. 1~2인실이 잘 갖춰진 코인 노래방이 유리하고, 예약보다 즉석 방문이 수월한 구조인지 확인하세요.</p>
-        </div>
-        <div class="n-wrap-lsgu">
-          <h3>늦은 시간대 발산 노래방 방문 시 달라지는 조건은?</h3>
-          <p>심야 할증 여부와 무료 음료 제공이 갈립니다. 체인보다 로컬 업장이 더 유연한 시간대료를 제시하는 경우가 많으니 비교가 필요합니다.</p>
-        </div>
-        <div class="n-wrap-lsgu">
-          <h3>곡 연습 목적이라면 발산 노래방에서 무엇을 봐야 하나요?</h3>
-          <p>곡 업데이트 주기와 반주기 음원 소스가 핵심입니다. 코인 노래방의 최신곡 보유율이 높고, 대형 업장은 음원이 다를 수 있어 사전 확인이 중요합니다.</p>
-        </div>
-        <div class="n-wrap-lsgu">
-          <h3>사진 만으로는 판단이 어려운 이유가 뭔가요?</h3>
-          <p>실제 방음 상태, 공기 질, 스피커 노후도는 사진에 담기지 않습니다. 방문 전 방의 실제 크기와 잔향감을 확인하는 것이 결정적 변수입니다.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Author Bio -->
-    <section style="padding: 60px 48px;">
-      <div class="x-ico-7t58">
-        <div class="x-ico-7t58-icon">//</div>
-        <div>
-          <span style="font-family: 'Courier New', monospace; font-size: 0.9rem; color:#6b1a1a;">로컬 가이드</span>
-          <h3 style="margin:0;">김도윤</h3>
-          <p style="margin:0;">발산 지역 노래방과 유흥 정보를 5년 이상 정리하며 직접 비교해온 로컬 콘텐츠 기획자입니다. 내돌내산 경험을 바탕으로 조건별 차이를 기록합니다.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- DOM NOISE -->
-    <aside class="note-4x7" style="display:none;"></aside>
-    <article style="display:none;">placeholder_article</article>
-    <!-- random string : 8F3A2B -->
-  </main>
-
-  <footer>
-    <p style="margin:0; font-size:0.9rem;">© 2025 발산 노래방 내돌내산 가이드 — balsan-song-info.program-school.online</p>
-    <!-- random_string: 1K9P5M -->
-  </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const btn = document.getElementById('hamburgerBtn');
-      const menu = document.getElementById('navMenu');
-      if (btn && menu) {
-        btn.addEventListener('click', function() {
-          menu.classList.toggle('open');
-        });
-      }
-    });
-  </script>
+    <!-- 4e9d2c1a -->
+    <aside class="note-x82z" style="display:none"></aside>
 </body>
 </html>
