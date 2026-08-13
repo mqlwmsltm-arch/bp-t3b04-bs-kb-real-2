@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (1/2) · t3b04-bs-kb-real-2</title>
+  <meta name="description" content="t3b04-bs-kb-real-2에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://balsan-song-info.program-school.online/posts.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ /* === RESET & BASE === */
+ *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+ html { font-size: 16px; scroll-behavior: smooth; }
+ body { font-family: 'Courier New', Courier, monospace; background: #1a1a1a; color: #f5f5f5; line-height: 1.6; }
+ a { color: #ffd700; text-decoration: none; }
+ a:hover { color: #ffaa00; text-decoration: underline; }
+ img { display: none; } /* 이미지 금지 */
+ /* === TYPOGRAPHY === */
+ h1, h2, h3 { font-weight: 900; text-transform: uppercase; letter-spacing: 2px; }
+ h1 { font-size: 2.5rem; margin: 1rem 0; color: #ffd700; text-shadow: 4px 4px 0 #000; }
+ h2 { font-size: 1.8rem; margin: 2rem 0 1rem; border-left: 6px solid #ffd700; padding-left: 1rem; }
+ h3 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; }
+ p { margin-bottom: 1rem; }
+ /* === LAYOUT === */
+ .container { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+ .site-header, .site-footer { background: #111; padding: 1rem 0; border-bottom: 3px solid #ffd700; }
+ .site-footer { border-top: 3px solid #ffd700; border-bottom: none; text-align: center; font-size: 0.85rem; }
+ .site-header .container { display: flex; justify-content: space-between; align-items: center; }
+ .site-header h1 { margin: 0; font-size: 1.5rem; }
+ .site-header nav { display: flex; gap: 1rem; align-items: center; }
+ .site-header nav a { font-weight: bold; padding: 0.3rem 0.6rem; border: 2px solid transparent; }
+ .site-header nav a:hover { border-color: #ffd700; }
+ .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; padding: 10px; }
+ .hamburger span { display: block; width: 25px; height: 3px; background: #ffd700; }
+ .nav-menu { display: flex; gap: 1rem; }
+ .nav-menu a { white-space: nowrap; }
+ .tel-link { font-size: 1.1rem; font-weight: bold; color: #ffd700; border: 2px solid #ffd700; padding: 0.4rem 0.8rem; }
+ .tel-link:hover { background: #ffd700; color: #111; }
+ main { padding: 2rem 0; min-height: 60vh; }
+ .post { background: #222; padding: 1.5rem; margin-bottom: 2rem; border: 2px solid #333; }
+ .post-meta { font-size: 0.85rem; color: #aaa; margin-bottom: 1rem; }
+ .post-meta span { margin-right: 1rem; }
+ .post h2 { margin-top: 0; }
+ .post p { text-align: justify; }
+ .post ul { margin: 1rem 0 1rem 1.5rem; }
+ .post li { margin-bottom: 0.5rem; }
+ blockquote { border-left: 4px solid #ffd700; margin: 1rem 0; padding-left: 1rem; font-style: italic; color: #ddd; }
+ /* === RESPONSIVE === */
+ @media (max-width: 768px) {
+ .hamburger { display: flex; }
+ .nav-menu { display: none; flex-direction: column; background: #111; position: absolute; top: 70px; left: 0; right: 0; padding: 1rem; border-bottom: 3px solid #ffd700; }
+ .nav-menu.active { display: flex; }
+ .nav-menu a { padding: 0.5rem 0; }
+ h1 { font-size: 1.8rem; }
+ h2 { font-size: 1.4rem; }
+ .site-header .container { flex-wrap: wrap; }
+ }
+ @media (min-width: 769px) {
+ .nav-menu { display: flex !important; }
+ }
+ /* === UTILITY === */
+ .highlight { color: #ffd700; font-weight: bold; }
+ .small-text { font-size: 0.9rem; color: #aaa; }
+ </style>
+  <meta property="og:title" content="글 목록 (1/2) · t3b04-bs-kb-real-2">
+  <meta property="og:description" content="t3b04-bs-kb-real-2에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://balsan-song-info.program-school.online/posts.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+ <div class="container">
+ <h1>발산 노래방 내돈내산</h1>
+ <div class="hamburger" onclick="toggleMenu()">
+ 
+ </div>
+ <nav id="nav-menu" class="nav-menu">
+ <a href="/">홈</a>
+ <a href="/blog" class="active">블로그</a>
+ <a href="/reviews">리뷰</a>
+ <a href="/contact">문의</a>
+ 
+ </nav>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 39개 · 1/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0256.html">발산 노래방 내돈내산 경험담과 동대문 마사지 업체 분석</a>
+        <p class="post-item__summary">마사지 숍을 방문하기 전, 많은 분이 발산 노래방 내돈내산 후기들을 찾아보며 신뢰할 수 있는 장소를 물색합니다. 하지만 업종이 다른 만큼, 마사지 업체를 고를 때는 확인해야 할 구체적인 리스트가 따</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0257.html">발산 노래방 내돈내산 경험으로 본 마포/합정 인디 소셜 라운지 가이드와 프라이빗 파티 팁</a>
+        <p class="post-item__summary">오랜 지인들과 모처럼 한자리에 모여 소규모 파티를 기획할 때면 장소 선정이 가장 큰 고민이 됩니다. 예전에 발산 노래방 내돈내산 후기를 참고하여 방문했던 곳들은 대중적이었으나, 정작 프라이빗한 소인</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0258.html">발산 노래방 내돈내산 후기처럼 솔직한 도메인 지수 탈모 방지 및 앵커 텍스트 이식 가이드</a>
+        <p class="post-item__summary">웹사이트 운영자들 사이에서는 도메인 지수가 낮아지면 마치 머리카락이 빠지듯 트래픽이 줄어든다는 웃지 못할 농담이 있습니다. 발산 노래방 내돈내산 포스팅을 작성하며 느꼈던 것은, 정보의 진실성이 곧 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0259.html">발산 노래방 내돈내산 정보처럼 투명한 마르지 않는 1급수 백링크 주스 공급 서비스의 핵심</a>
+        <p class="post-item__summary">성공적인 온라인 프로젝트를 완성하기 위해서는 무엇보다 충족되어야 할 조건들이 있습니다. 발산 노래방 내돈내산 리뷰를 꼼꼼히 따져보는 것만큼이나, 웹사이트의 권위를 높여줄 백링크 주스의 출처를 확인하</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0260.html">발산 노래방 내돈내산 후기보다 정확한 마포 럭셔리 단체 가라오케 예약 가이드 및 모임 전략</a>
+        <p class="post-item__summary">여러분은 단체 모임 장소를 고를 때 어떤 기준으로 업체를 비교하시나요. 발산 노래방 내돈내산 후기들이 즐비한 세상이지만, 정말 중요한 VIP 모임을 위한 럭셔리한 선택지는 좀 더 신중한 접근이 필요</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0261.html">발산 노래방 내돈내산 경험으로 본 마포 유흥 투명 정찰제 가격 정보 디렉토리의 가치</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 경험담이 넘쳐나는 온라인 공간에서 유독 신뢰할 만한 정보를 찾기란 쉽지 않은 일입니다. 많은 소비자가 업소 방문 전 겪는 막연한 불안감은 가격 정보의 불투명성에서 기인하는 경우</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0262.html">발산 노래방 내돈내산 후기 속 마포 코인노래방 방음 시설 비교 가이드 활용법</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 기록들을 살펴보면 많은 방문객이 시설의 쾌적함을 중요하게 평가하고 있음을 알 수 있습니다. 특히 옆 방에서 들려오는 소음이나 진동은 전체적인 만족도를 떨어뜨리는 가장 큰 요소로</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0263.html">발산 노래방 내돈내산 예약 실패 분석과 구글 알고리즘 감점 치료 및 백링크 수술실</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 후기를 분석해보면 대다수 예약 실패 사례는 특정 시점의 혼잡도를 간과했을 때 발생합니다. 많은 이들이 온라인상에서 검색 결과 노출 순위를 맹신하다가 정작 실시간 예약 현황을 확</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0264.html">발산 노래방 내돈내산 경험으로 배우는 4</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 경험담을 데이터화하여 활용하는 것은 현대 마케팅의 필수 과정입니다. 무수한 후기 중에서 유의미한 정보를 추출하려면 자동화 프로그램의 도움을 받는 것이 효율적입니다. 코딩 기초를</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0265.html">발산 노래방 내돈내산 경험으로 본 마포 셔츠룸 리얼 후기 소셜 마케팅 가이드</a>
+        <p class="post-item__summary">주말 저녁 모임을 준비하다가 우연히 발산 노래방 내돈내산 후기를 접하게 되어 관련 정보를 면밀히 살피게 되었습니다. 단순히 유흥을 즐기는 공간을 넘어 비즈니스나 소셜 커뮤니티의 접점으로 활용하는 사</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0266.html">발산 노래방 내돈내산 기록과 구글 틈새 키워드 트래픽 외환 거래 전략</a>
+        <p class="post-item__summary">흔히 대중적인 인기를 끄는 장소는 항상 최고의 선택지라는 오해를 하곤 합니다. 하지만 발산 노래방 내돈내산 방문기에서 보듯 실제 가치는 유명세가 아닌 정보의 적시성에 의해 결정됩니다. 투자나 사업 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0267.html">발산 노래방 내돈내산 후기와 마포 셔츠룸 예약 시 눈탱이 피하는 법</a>
+        <p class="post-item__summary">건전한 유흥 문화를 즐기기 위해서는 기본적으로 갖춰야 할 충족 조건들이 분명 존재합니다. 투명한 가격 공개, 이용 시간의 보장, 그리고 서비스 품질에 대한 사전 확인은 즐거운 시간을 위한 필수 요소</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0268.html">발산 노래방 내돈내산 리뷰보다 중요한 셔츠룸 예약 및 업체 비교 기준</a>
+        <p class="post-item__summary">오늘도 새로운 공간을 찾기 위해 인터넷을 방황하고 계신가요? 발산 노래방 내돈내산 글들 사이에서 진정으로 본인에게 맞는 곳을 고르기 위해 어떤 기준을 세우고 계신지 궁금합니다. 막연한 기대보다는 객</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0269.html">발산 노래방 내돈내산 경험으로 확인하는 셔츠룸 사이트 이용 절차</a>
+        <p class="post-item__summary">지역 내 유흥 정보를 탐색하다 보면 흔히 접하게 되는 발산 노래방 내돈내산 후기는 선택의 중요한 이정표가 됩니다. 하지만 정보의 홍수 속에서 옥석을 가려내는 안목은 필수적이며 특히 셔츠룸 시스템을 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0270.html">발산 노래방 내돈내산 비교로 알아보는 마포 홍대 단체 가라오케 예약 가이드</a>
+        <p class="post-item__summary">지인들과의 모임을 준비하며 발산 노래방 내돈내산 기록을 참고하는 분들이 많아지고 있습니다. 특히 마포나 홍대 지역은 유흥 문화가 발달하여 단체 행사를 위한 공간 선택지가 매우 다양합니다. 가라오케 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0271.html">발산 노래방 내돈내산 리뷰 확인하듯 구글 인덱싱 속도 초고속 광회선 대역폭 최적화하기</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 후기를 분석할 때 정보가 빠르게 노출되는지 확인하는 것처럼, 웹사이트 운영에서도 크롤링 속도는 매우 중요합니다. 많은 운영자가 검색 결과에 반영되지 않아 답답함을 느끼는데, 이</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0272.html">발산 노래방 내돈내산 선택 기준과 구글 신뢰 지수 모발이식 솔루션 운영의 공통점</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 후기를 꼼꼼히 살피는 행동은 신뢰할 수 있는 정보를 찾기 위한 지극히 합리적인 태도입니다. 이와 유사하게 디지털 영역에서도 특정 서비스나 브랜드가 사용자에게 신뢰를 얻기 위해서</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0193.html">발산 노래방 내돈내산 경험으로 배우는 구글 봇 정밀 검진 및 크롤 버짓 밀착 간호</a>
+        <p class="post-item__summary">지난 주말 지인들과 방문한 발산 노래방 내돈내산 탐방은 단순한 유흥을 넘어 웹사이트 운영의 본질을 고민하게 만든 계기였습니다. 입구에서부터 꼼꼼하게 살피지 않으면 뒤편의 넓은 공간을 놓치기 일쑤인 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0194.html">발산 노래방 내돈내산 후기가 말하는 구글 알고리즘 고신용 도메인 보증 카드 발급</a>
+        <p class="post-item__summary">사람들은 흔히 오래된 도메인만 가지고 있으면 무조건 검색 상단에 노출될 것이라는 잘못된 믿음을 가지고 있습니다. 발산 노래방 내돈내산 후기를 공유하는 커뮤니티에서조차 무작정 글만 많이 올리면 해결된</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0195.html">발산 노래방 내돈내산 방문보다 중요한 합정 셔츠룸 단골들이 뽑은 핫플 매거진 정보</a>
+        <p class="post-item__summary">매끄러운 서비스 환경, 적절한 가격대, 그리고 방문객의 만족스러운 후기까지 이 모든 충족 조건이 하나로 모일 때 진정한 명소가 완성됩니다. 최근 발산 노래방 내돈내산 후기를 찾아보는 분들이 많지만,</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <span class="pager__current">1</span>
+      <a class="pager__link" href="posts-2.html">2</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>

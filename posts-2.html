@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/2) · t3b04-bs-kb-real-2</title>
+  <meta name="description" content="t3b04-bs-kb-real-2에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://balsan-song-info.program-school.online/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ /* === RESET & BASE === */
+ *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+ html { font-size: 16px; scroll-behavior: smooth; }
+ body { font-family: 'Courier New', Courier, monospace; background: #1a1a1a; color: #f5f5f5; line-height: 1.6; }
+ a { color: #ffd700; text-decoration: none; }
+ a:hover { color: #ffaa00; text-decoration: underline; }
+ img { display: none; } /* 이미지 금지 */
+ /* === TYPOGRAPHY === */
+ h1, h2, h3 { font-weight: 900; text-transform: uppercase; letter-spacing: 2px; }
+ h1 { font-size: 2.5rem; margin: 1rem 0; color: #ffd700; text-shadow: 4px 4px 0 #000; }
+ h2 { font-size: 1.8rem; margin: 2rem 0 1rem; border-left: 6px solid #ffd700; padding-left: 1rem; }
+ h3 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; }
+ p { margin-bottom: 1rem; }
+ /* === LAYOUT === */
+ .container { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+ .site-header, .site-footer { background: #111; padding: 1rem 0; border-bottom: 3px solid #ffd700; }
+ .site-footer { border-top: 3px solid #ffd700; border-bottom: none; text-align: center; font-size: 0.85rem; }
+ .site-header .container { display: flex; justify-content: space-between; align-items: center; }
+ .site-header h1 { margin: 0; font-size: 1.5rem; }
+ .site-header nav { display: flex; gap: 1rem; align-items: center; }
+ .site-header nav a { font-weight: bold; padding: 0.3rem 0.6rem; border: 2px solid transparent; }
+ .site-header nav a:hover { border-color: #ffd700; }
+ .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; padding: 10px; }
+ .hamburger span { display: block; width: 25px; height: 3px; background: #ffd700; }
+ .nav-menu { display: flex; gap: 1rem; }
+ .nav-menu a { white-space: nowrap; }
+ .tel-link { font-size: 1.1rem; font-weight: bold; color: #ffd700; border: 2px solid #ffd700; padding: 0.4rem 0.8rem; }
+ .tel-link:hover { background: #ffd700; color: #111; }
+ main { padding: 2rem 0; min-height: 60vh; }
+ .post { background: #222; padding: 1.5rem; margin-bottom: 2rem; border: 2px solid #333; }
+ .post-meta { font-size: 0.85rem; color: #aaa; margin-bottom: 1rem; }
+ .post-meta span { margin-right: 1rem; }
+ .post h2 { margin-top: 0; }
+ .post p { text-align: justify; }
+ .post ul { margin: 1rem 0 1rem 1.5rem; }
+ .post li { margin-bottom: 0.5rem; }
+ blockquote { border-left: 4px solid #ffd700; margin: 1rem 0; padding-left: 1rem; font-style: italic; color: #ddd; }
+ /* === RESPONSIVE === */
+ @media (max-width: 768px) {
+ .hamburger { display: flex; }
+ .nav-menu { display: none; flex-direction: column; background: #111; position: absolute; top: 70px; left: 0; right: 0; padding: 1rem; border-bottom: 3px solid #ffd700; }
+ .nav-menu.active { display: flex; }
+ .nav-menu a { padding: 0.5rem 0; }
+ h1 { font-size: 1.8rem; }
+ h2 { font-size: 1.4rem; }
+ .site-header .container { flex-wrap: wrap; }
+ }
+ @media (min-width: 769px) {
+ .nav-menu { display: flex !important; }
+ }
+ /* === UTILITY === */
+ .highlight { color: #ffd700; font-weight: bold; }
+ .small-text { font-size: 0.9rem; color: #aaa; }
+ </style>
+  <meta property="og:title" content="글 목록 (2/2) · t3b04-bs-kb-real-2">
+  <meta property="og:description" content="t3b04-bs-kb-real-2에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://balsan-song-info.program-school.online/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+ <div class="container">
+ <h1>발산 노래방 내돈내산</h1>
+ <div class="hamburger" onclick="toggleMenu()">
+ 
+ </div>
+ <nav id="nav-menu" class="nav-menu">
+ <a href="/">홈</a>
+ <a href="/blog" class="active">블로그</a>
+ <a href="/reviews">리뷰</a>
+ <a href="/contact">문의</a>
+ 
+ </nav>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 39개 · 2/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0177.html">발산 노래방 내돈내산 경험담으로 알아보는 합정 노래방 추천정보</a>
+        <p class="post-item__summary">지난번 발산 노래방 내돈내산 후기를 남기며 느꼈던 점은 장소마다 분위기가 사뭇 다르다는 것이었습니다. 특히 합정과 같은 번화가에서 노래방을 찾을 때는 주변 상권과의 접근성을 먼저 파악하는 것이 중요</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0178.html">발산 노래방 내돈내산 대신 확인하는 연남 클럽 추천정보 이용 가이드</a>
+        <p class="post-item__summary">흔히 클럽은 밤늦게 방문해야만 즐겁다고 생각하지만 이는 반은 맞고 반은 틀린 이야기입니다. 발산 노래방 내돈내산 경험이 노래방이라는 정적인 공간에 국한되었다면, 클럽은 유동적인 시간 흐름이 핵심입니</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0179.html">발산 노래방 내돈내산 경험으로 본 합정 셔츠룸 추천정보 선택 기준</a>
+        <p class="post-item__summary">쾌적한 셔츠룸을 이용하기 위해서는 일행의 숫자와 그에 적합한 공간의 크기가 완벽하게 충족되어야 합니다. 발산 노래방 내돈내산 경험에서 배웠듯, 좁은 방에 너무 많은 인원이 들어가는 것은 불편함을 야</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0180.html">발산 노래방 내돈내산 경험으로 본 공덕 가라오케 선택의 기준과 정보</a>
+        <p class="post-item__summary">혹시 즐거운 모임을 계획하면서 장소를 결정하는 데 고민이 깊어지신 적이 있으신가요? 과거 발산 노래방 내돈내산 방문 경험을 통해 얻은 노하우를 바탕으로, 오늘은 공덕 지역에서 적합한 공간을 선택하는</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0181.html">발산 노래방 내돈내산 후기처럼 믿을 수 있는 상수 마사지 정보 확인법</a>
+        <p class="post-item__summary">최근 발산 노래방 내돈내산 후기를 참고하여 업체를 고르던 습관을 마사지 샵을 찾을 때도 적용해 보았습니다. 상수 지역에서 믿을 수 있는 서비스를 찾기 위해 후기의 진실성을 판별하는 단계별 절차를 여</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0182.html">발산 노래방 내돈내산과 비교하는 망원 노래방 선택을 위한 가격 기준</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 경험을 돌이켜보면 장소마다 가격 산정 방식이 천차만별이라는 점을 깨닫게 됩니다. 망원 지역에서 노래방을 선택할 때도 단순히 비용만 따질 것이 아니라, 제공되는 서비스와 가격 간</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0183.html">발산 노래방 내돈내산 경험으로 본 홍대 노래방 추천정보</a>
+        <p class="post-item__summary">많은 분이 발산 노래방 내돈내산 후기를 찾아보며 시행착오를 겪곤 합니다. 특히 홍대와 같이 번화한 지역에서 무작정 방문했다가 방이 없어 발길을 돌리는 일이 흔하게 발생하곤 하죠. 실패 없는 방문을 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0184.html">발산 노래방 내돈내산 체크리스트로 본 공덕 셔츠룸 추천정보</a>
+        <p class="post-item__summary">발산 노래방 내돈내산 리뷰를 보며 얻은 노하우를 공덕 지역에도 적용해 볼 수 있습니다. 셔츠룸은 일반 노래방과 다른 이용 시스템을 갖추고 있어 방문 전 세밀한 확인이 필요합니다. 처음 가는 장소라면</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0185.html">발산 노래방 내돈내산 후기가 알려주는 연남 유흥 추천정보</a>
+        <p class="post-item__summary">갑작스러운 회식이나 친구들과의 모임으로 연남동을 방문했다가 당황하는 경우가 많습니다. 발산 노래방 내돈내산 경험담을 접하며 느낀 점은, 처음 가는 동네의 시스템은 의외로 복잡할 수 있다는 사실입니다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0186.html">발산 노래방 내돈내산 경험으로 정리한 마곡 가라오케 추천정보 가이드</a>
+        <p class="post-item__summary">흔히들 유흥가 중심지의 시설은 대동소이할 것이라 생각하기 쉽지만, 이는 사실과 다릅니다. 발산 노래방 내돈내산 탐방을 통해 직접 경험해보면 매장마다 추구하는 서비스의 방향성이 확연히 다르다는 것을 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0187.html">발산 노래방 내돈내산으로 살펴본 효율적인 마곡 유흥 추천정보 기준</a>
+        <p class="post-item__summary">성공적인 밤을 보내기 위해서는 입지 조건, 서비스의 일관성, 그리고 합리적인 운영 방식이라는 세 가지 필수 요소를 모두 충족해야 합니다. 발산 노래방 내돈내산 방문 경험을 돌이켜보면, 이 세 가지가</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-002-x6a9q0.html">발산 노래방 내돈내산 경험자에게 물어본 현실적인 판단 기준</a>
+        <p class="post-item__summary">발산 지역에서 노래방을 이용할 때는 위치 접근성, 주차 편의성, 영업 시간 등이 첫 번째 판단 기준이 됩니다. 대중교통 역세권에 있거나 주차 공간이 확보된 곳이라면 이동 스트레스를 줄일 수 있습니다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/juice-1.html">발산 노래방 내돈내산 안내</a>
+        <p class="post-item__summary">발산 지역의 노래방을 스스로 계획하고 점검하는 과정을 안내합니다. 내돈내산 방식은 개인이 직접 비용을 내고 정보를 수집하며 방문 경험을 정리하는 형태입니다. 이 방법은 가격이나 서비스 상태에 대한 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/juice-2.html">발산 노래방 내돈내산</a>
+        <p class="post-item__summary">발산 지역에 위치한 노래방을 직접 방문하여 비용을 지불하고 이용하는 경우에 참고할 수 있는 정보를 안내합니다. 노래방은 실내에서 취미생활을 즐기고 친구·가족과 시간을 보낼 수 있는 흔한 유흥 공간 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-x6a9q0.html">발산 노래방 내돈내산</a>
+        <p class="post-item__summary">발산 역 주변에는 다양한 규모의 노래방이 밀집해 있어 대중교통을 이용한 접근이 매우 편리합니다. 역 출구에서 도보로 5분 내외 거리에 위치해 있어 출퇴근길이나 모임 후에 부담 없이 방문할 수 있습니</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-1.html">발산 노래방 내돈내산 정보</a>
+        <p class="post-item__summary">발산 지역에서 노래방을 찾고 계신다면, 가격 대비 만족도를 중요하게 생각하시는 분들이 많습니다. 본 정보 페이지는 발산 노래방 내돈내산 경험을 바탕으로 한 정보를 제공하며, 방문 전에 참고할 만한 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-2.html">발산 노래방 내돈내산 정보</a>
+        <p class="post-item__summary">노래방을 이용할 때 자신의 지출 수준에 맞춰 선택하는 내돈내산 방식은 비용 부담을 줄이는 실용적인 접근법입니다. 발산 지역에서 이러한 소비 패턴을 고려할 경우, 가격 비교와 시설 상태를 직접 확인하</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-3.html">발산 노래방 내돈내산 정보 안내</a>
+        <p class="post-item__summary">발산 지역에는 다양한 노래방업소가 위치해 있으며, 주변에서 직접 방문 후 기록한 경험을 바탕으로 정보가 공유되고 있습니다. 내돈내산은 직접 비용을 지불하고 이용하면서 얻은 경험을 정리한 형태로, 타</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-001.html">발산 노래방 내돈내산 후기 보는데... 문득 홍대서 폐업한 형이 떠올라서 적어보는 &amp;#39;진짜&amp;#39; 돈 깨지는 이야기</a>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
